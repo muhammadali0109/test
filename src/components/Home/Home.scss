@@ -23,16 +23,23 @@
     &__item {
         position: relative;
     }
+    &__item1{
+        row-gap: 65px
+        ;
+    }
     &__input {
         border-radius: 10px;
         width: 645px;
         height: 50px;
     }
-    &__item button {
+    &__item i {
+        width: 30px;
+        height: 30px;
         position: absolute;
-        background: #341F47;
-        color: #fff;
-        top: 15px;
+        color: #341F47;
+        top: 10px;
+        display: flex;
+        align-items:center;
         right: 10px;
     }
     &__contain {
@@ -49,6 +56,14 @@
     }
     &__main {
         width: 92.5%;
+    }
+    &__icon {
+        border: 2px solid #FFFFFF;
+        border-radius: 10px;
+        color: white;
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
     }
 }
 

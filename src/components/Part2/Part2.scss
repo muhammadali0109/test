@@ -1,0 +1,43 @@
+.inc {
+    width: 100%;
+    height: 100%;
+    &__navigator {
+      height: 7%;
+      width: 100%;
+    }
+    &__main {
+     height: 93%;   
+     width: 100%;
+    }
+    &__list {
+        width: 80%;
+        margin:  0 auto;
+        height: 35%;
+        
+    }
+    &__up {
+        height: 30%;
+        display: flex;
+        justify-content: space-around;
+    }
+    &__item {
+        height: 35%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid grey;
+        border-radius: 10px;
+    }
+    &__item button {
+        width: 33px;
+        height: 34px;
+        background: #F28A2C;
+        border-radius: 30px;
+    }
+    &__btn {
+        width: 33px;
+        height: 34px;
+        background: #18B628;
+        border-radius: 30px;
+    }
+}

@@ -27,13 +27,11 @@ const Home = () => {
           <li className='home__item'>
             <form >
             <input className='home__input' type='text' placeholder='search by category of product'/>
-            <button>Search</button>
+            <i className="fa-solid fa-magnifying-glass"></i>
             </form>
           </li>
-          <li className='home__items'>
-            <button></button>
-            <button></button>
-            <button></button>
+          <li className='home__item1'>
+            <button className='home__icon'>Uz</button>
           </li>
          </ul>
       </div>
